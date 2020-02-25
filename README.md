@@ -1,5 +1,4 @@
-# dice-game.github.io
-#Rolling a dice - Game Application using Vanilla Javascript
+Game Rules
 1. The dice game has 2 players, rolling a dice in rounds
 2. Rule 1: If a player rolls a 1, all his ROUND score gets lost. After that, it's the next player's turn
 3. In each turn, a player rolls dice as many times as he wishes. Each result get added to his ROUND score(unless it's a 1)
