@@ -36,7 +36,12 @@
 }
 
 body {
-    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(back.jpg);
+    /*
+        background: rgb(238,174,202);
+        background: linear-gradient(180deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+   */
+    background: rgb(254,234,121);
+    background: linear-gradient(180deg, rgba(254,234,121,1) 0%, rgba(169,163,87,1) 52%, rgba(80,65,58,1) 100%);
     background-size: cover;
     background-position: center;
     font-family: Lato, serif;
@@ -86,7 +91,7 @@ body {
     text-align: center;
     font-size: 80px;
     font-weight: 100;
-    color: #EB4D4D;
+    color: #A9A357;
     margin-bottom: 130px;
 }
 
@@ -97,14 +102,14 @@ body {
     content: "\2022";
     font-size: 47px;
     position: absolute;
-    color: #EB4D4D;
+    color: #A9A357;
     top: -7px;
     right: 10px;
     
 }
 
 .player-current-box {
-    background-color: #EB4D4D;
+    background-color: #A9A357;
     color: #fff;
     width: 40%;
     margin: 0 auto;
@@ -147,7 +152,7 @@ button:focus {
 }
 
 i {
-    color: #EB4D4D;
+    color: #A9A357;
     display: inline-block;
     margin-right: 15px;
     font-size: 32px;
@@ -174,7 +179,7 @@ input:focus::-webkit-input-placeholder
     color: transparent;
 }
 .winner { background-color: #f7f7f7; }
-.winner .player-name { font-weight: 300; color: #EB4D4D; }
+.winner .player-name { font-weight: 300; color: #A9A357; }
 @-webkit-keyframes flipOutX {
     from {
         -webkit-transform: perspective(400px);
